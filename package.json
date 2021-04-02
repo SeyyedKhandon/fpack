@@ -43,7 +43,7 @@
     "vscode": "^1.54.3"
   },
   "extensionPack": [
-    "ctf0.htmlhint",
+    "mkaufman.htmlhint",
     "ecmel.vscode-html-css",
     "formulahendry.auto-rename-tag",
     "naumovs.color-highlight",
