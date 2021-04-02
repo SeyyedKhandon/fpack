@@ -1,0 +1,58 @@
+{
+  "name": "fpack",
+  "version": "0.1.0",
+  "publisher": "SeyyedKhandon",
+  "author": "SeyyedMahdi Hassanpour",
+  "displayName": "Frontend Extension Pack (FPack)",
+  "description": "Frontend Development Essentials Extension Pack for Visual Studio Code",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#47B784",
+    "theme": "dark"
+  },
+  "icon": "logo.jpg",
+  "repository": {
+    "url": "https://github.com/SeyyedKhandon/fpack.git"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/fpack.git",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/fpack.git/issues"
+  },
+  "keywords": [
+    "web",
+    "developer experience",
+    "Frontend Development Essentials",
+    "Check Metric",
+    "extension pack",
+    "HTMLHint",
+    "HTML CSS Support",
+    "Auto Rename Tag",
+    "Color Highlight",
+    "Color Info",
+    "Color Manager",
+    "CSS Navigation",
+    "Image preview",
+    "Live Server",
+    "Static server",
+    "file-size"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "engines": {
+    "vscode": "^1.54.3"
+  },
+  "extensionPack": [
+    "ctf0.htmlhint",
+    "ecmel.vscode-html-css",
+    "formulahendry.auto-rename-tag",
+    "naumovs.color-highlight",
+    "bierner.color-info",
+    "RoyAction.color-manager",
+    "pucelle.vscode-css-navigation",
+    "kisstkondoros.vscode-gutter-preview",
+    "ritwickdey.liveserver",
+    "axetroy.vscode-static-server",
+    "zh9528.file-size"
+  ]
+}
