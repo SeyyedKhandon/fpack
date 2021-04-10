@@ -1,9 +1,9 @@
 {
   "name": "fpack",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
-  "displayName": "Frontend Extension Pack (FPack)",
+  "displayName": "Frontend Essentials Extension Pack (FPack)",
   "description": "Frontend Development Essentials Extension Pack for Visual Studio Code",
   "license": "MIT",
   "galleryBanner": {

@@ -1,4 +1,4 @@
-# Frontend Extension Pack (FPack)
+# Frontend Essentials Extension Pack (FPack)
 
 ### FPack
 
