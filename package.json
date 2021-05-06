@@ -1,6 +1,6 @@
 {
   "name": "fpack",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Frontend Essentials Extension Pack (FPack)",
@@ -22,7 +22,7 @@
     "web",
     "developer experience",
     "Frontend Development Essentials",
-    "Check Metric",
+    "Code Metric",
     "extension pack",
     "HTMLHint",
     "HTML CSS Support",
