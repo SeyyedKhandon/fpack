@@ -1,6 +1,6 @@
 {
   "name": "fpack",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Frontend Essentials Extension Pack (FPack)",
@@ -10,7 +10,7 @@
     "color": "#47B784",
     "theme": "dark"
   },
-  "icon": "logo.jpg",
+  "icon": "assets/fpack.jpg",
   "repository": {
     "url": "https://github.com/SeyyedKhandon/fpack.git"
   },
