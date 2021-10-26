@@ -1,6 +1,6 @@
 {
   "name": "fpack",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Frontend Essentials Extension Pack (FPack)",
@@ -34,6 +34,7 @@
     "Image preview",
     "Live Server",
     "Static server",
+    "Five Server",
     "file-size"
   ],
   "categories": [
@@ -51,8 +52,7 @@
     "RoyAction.color-manager",
     "pucelle.vscode-css-navigation",
     "kisstkondoros.vscode-gutter-preview",
-    "ritwickdey.liveserver",
-    "axetroy.vscode-static-server",
+    "yandeu.five-server",
     "zh9528.file-size"
   ]
 }

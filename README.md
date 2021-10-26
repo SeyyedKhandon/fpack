@@ -26,11 +26,9 @@ Frontend Development Essentials Extension Pack for Visual Studio Code
 
 - 8- [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) - Shows image preview in the gutter and on hover.
 
-- 9- [Live Server](https://marketplace.visualstudio.com/items?itemName=formulahendry.ritwickdey.liveserver) - Launch a development local Server with live reload feature for static & dynamic pages
+- 9- [Five Server (Live Server)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) - Dev Server with Live Reload(Serves Files/Folders). (Maintained Fork of Live Server)
 
-- 10- [Static server](https://marketplace.visualstudio.com/items?itemName=axetroy.vscode-static-server) - Serve your static directory
-
-- 11- [file-size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size) - Show the current text file size in the status bar.
+- 10- [file-size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size) - Show the current text file size in the status bar.
 
 ## Recommended Extension pack
 
