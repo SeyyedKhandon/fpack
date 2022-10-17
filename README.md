@@ -20,7 +20,7 @@ Frontend Development Essentials Extension Pack for Visual Studio Code
 
 - 5- [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info) - Provides quick information about css colors
 
-- 6- [Color Manager](https://marketplace.visualstudio.com/items?itemName=RoyAction.color-manager) - color picker and color palette
+- 6- [Unused CSS Classes for JavaScript/Angular/React](https://marketplace.visualstudio.com/items?itemName=rcore.rcore-unused-css-classes) - Highlights unused css classes
 
 - 7- [CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation) - Allows Go to Definition from HTML to CSS / Sass / Less; provides Completion and Workspace Symbols for class & id name.
 
