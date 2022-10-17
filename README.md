@@ -10,7 +10,7 @@ Frontend Development Essentials Extension Pack for Visual Studio Code
 
 ## Extensions Included
 
-- 1- [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.htmlhint) - VS Code integration for HTMLHint - A Static Code Analysis Tool for HTML
+- 1- [HTMLHint](https://marketplace.visualstudio.com/items?itemName=HTMLHint.vscode-htmlhint) - VS Code integration for HTMLHint - A Static Code Analysis Tool for HTML
 
 - 2- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) - CSS Intellisense for HTML
 

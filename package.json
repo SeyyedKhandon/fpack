@@ -1,6 +1,6 @@
 {
   "name": "fpack",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Frontend Essentials Extension Pack (FPack)",
@@ -44,7 +44,7 @@
     "vscode": "^1.54.3"
   },
   "extensionPack": [
-    "mkaufman.htmlhint",
+    "HTMLHint.vscode-htmlhint",
     "ecmel.vscode-html-css",
     "formulahendry.auto-rename-tag",
     "naumovs.color-highlight",
