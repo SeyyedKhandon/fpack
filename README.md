@@ -26,9 +26,13 @@ Frontend Development Essentials Extension Pack for Visual Studio Code
 
 - 8- [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) - Shows image preview in the gutter and on hover.
 
-- 9- [Five Server (Live Server)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) - Dev Server with Live Reload(Serves Files/Folders). (Maintained Fork of Live Server)
+- 9- [Font Preview](https://marketplace.visualstudio.com/items?itemName=ctcuff.font-preview) - Preview fonts (`OTF,TTF,TTC,WOFF,WOFF2`) in VS Code 
 
-- 10- [file-size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size) - Show the current text file size in the status bar.
+- 10- [Svg Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview) - Preview for Svg files
+
+- 11- [Five Server (Live Server)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) - Dev Server with Live Reload(Serves Files/Folders). (Maintained Fork of Live Server)
+
+- 12- [file-size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size) - Show the current text file size in the status bar.
 
 ## Recommended Extension pack
 
