@@ -1,6 +1,6 @@
 {
   "name": "fpack",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Frontend Essentials Extension Pack (FPack)",
@@ -22,7 +22,6 @@
     "web",
     "developer experience",
     "Frontend Development Essentials",
-    "Code Metric",
     "extension pack",
     "HTMLHint",
     "HTML CSS Support",
@@ -35,15 +34,38 @@
     "Live Server",
     "Static server",
     "Five Server",
-    "file-size",
     "Font Preview",
-    "Svg Preview"
+    "Svg Preview",
+    "Prettier code formatter",
+    "Format Toggle"
   ],
   "categories": [
-    "Extension Packs"
+    "Extension Packs",
+    "Formatters",
+    "Other"
   ],
   "engines": {
-    "vscode": "^1.54.3"
+    "vscode": "^1.55.0"
+  },
+  "activationEvents": [
+    "onCommand:fpack.updateConfig"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "fpack.updateConfig",
+        "title": "Update Frontend Essentials Extension Pack (FPack) Config "
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
   },
   "extensionPack": [
     "HTMLHint.vscode-htmlhint",
@@ -55,8 +77,22 @@
     "pucelle.vscode-css-navigation",
     "kisstkondoros.vscode-gutter-preview",
     "yandeu.five-server",
-    "zh9528.file-size",
     "SimonSiefke.svg-preview",
-    "ctcuff.font-preview"
-  ]
+    "ctcuff.font-preview",
+    "esbenp.prettier-vscode",
+    "tombonnike.vscode-status-bar-format-toggle"
+  ],
+  "devDependencies": {
+    "@types/vscode": "^1.55.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^12.11.7",
+    "eslint": "^7.19.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "glob": "^7.1.6",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3",
+    "vscode-test": "^1.5.0"
+  }
 }
