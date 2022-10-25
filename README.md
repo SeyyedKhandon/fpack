@@ -23,7 +23,8 @@ Frontend Development Essentials Extension Pack for Visual Studio Code
 ```json
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true
 }
 ```
 

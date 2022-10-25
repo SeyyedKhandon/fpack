@@ -1,6 +1,6 @@
 {
   "name": "fpack",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Frontend Essentials Extension Pack (FPack)",
@@ -36,8 +36,7 @@
     "Five Server",
     "Font Preview",
     "Svg Preview",
-    "Prettier code formatter",
-    "Format Toggle"
+    "Prettier code formatter"
   ],
   "categories": [
     "Extension Packs",
