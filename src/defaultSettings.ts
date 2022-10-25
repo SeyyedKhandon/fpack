@@ -3,6 +3,6 @@ export interface GeneralObject {
 }
 
 export const defaultSettings = {
-   "editor.defaultFormatter": "esbenp.prettier-vscode" ,
-   "editor.formatOnSave": true ,
-}
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+};

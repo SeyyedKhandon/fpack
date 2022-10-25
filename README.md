@@ -8,47 +8,52 @@
 
 Frontend Development Essentials Extension Pack for Visual Studio Code
 
-### 1-Click Setup:
+### Available Commands
 
-1. Press `ctrl+shift+p`
-2. Type `fpack` or `update config`
-3. Click on `Update Frontend Essentials Extension Pack (FPack) Config` to automatically add below configs to your `settings.json` file
+- `Activate Frontend Essentials Extension Pack (FPack) Config`
+- `Deactivate Frontend Essentials Extension Pack (FPack) Config`
 
+**Note:** to run commands, press `ctrl+shift+p` to open the command palette, and then type the command .e.g. `activate fpack` then select it.
+
+<details>
+<summary>
+<i>Here are the configurations this plugin will use</i>
+</summary>
 
 ```json
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode" ,
-  "editor.formatOnSave": true ,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
 ```
 
+</details>
+
 ## Extensions Included
 
-- 1- [HTMLHint](https://marketplace.visualstudio.com/items?itemName=HTMLHint.vscode-htmlhint) - VS Code integration for HTMLHint - A Static Code Analysis Tool for HTML
+- 1- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter using prettier
 
-- 2- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) - CSS Intellisense for HTML
+- 2- [HTMLHint](https://marketplace.visualstudio.com/items?itemName=HTMLHint.vscode-htmlhint) - VS Code integration for HTMLHint - A Static Code Analysis Tool for HTML
 
-- 3- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Auto rename paired HTML/XML tag.
+- 3- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) - CSS Intellisense for HTML
 
-- 4- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) - Highlight web colors in your editor
+- 4- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Auto rename paired HTML/XML tag.
 
-- 5- [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info) - Provides quick information about css colors
+- 5- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) - Highlight web colors in your editor
 
-- 6- [Unused CSS Classes for JavaScript/Angular/React](https://marketplace.visualstudio.com/items?itemName=rcore.rcore-unused-css-classes) - Highlights unused css classes
+- 6- [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info) - Provides quick information about css colors
 
-- 7- [CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation) - Allows Go to Definition from HTML to CSS / Sass / Less; provides Completion and Workspace Symbols for class & id name.
+- 7- [Unused CSS Classes for JavaScript/Angular/React](https://marketplace.visualstudio.com/items?itemName=rcore.rcore-unused-css-classes) - Highlights unused css classes
 
-- 8- [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) - Shows image preview in the gutter and on hover.
+- 8- [CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation) - Allows Go to Definition from HTML to CSS / Sass / Less; provides Completion and Workspace Symbols for class & id name.
 
-- 9- [Font Preview](https://marketplace.visualstudio.com/items?itemName=ctcuff.font-preview) - Preview fonts (`OTF,TTF,TTC,WOFF,WOFF2`) in VS Code
+- 9- [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) - Shows image preview in the gutter and on hover.
 
-- 10- [Svg Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview) - Preview for Svg files
+- 10- [Font Preview](https://marketplace.visualstudio.com/items?itemName=ctcuff.font-preview) - Preview fonts (`OTF,TTF,TTC,WOFF,WOFF2`) in VS Code
 
-- 11- [Five Server (Live Server)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) - Dev Server with Live Reload(Serves Files/Folders). (Maintained Fork of Live Server)
+- 11- [Svg Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview) - Preview for Svg files
 
-- 13- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter using prettier
-
-- 14- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
+- 12- [Five Server (Live Server)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) - Dev Server with Live Reload(Serves Files/Folders). (Maintained Fork of Live Server)
 
 ## Recommended Extension pack
 

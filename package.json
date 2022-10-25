@@ -1,6 +1,6 @@
 {
   "name": "fpack",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Frontend Essentials Extension Pack (FPack)",
@@ -48,14 +48,18 @@
     "vscode": "^1.55.0"
   },
   "activationEvents": [
-    "onCommand:fpack.updateConfig"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "fpack.updateConfig",
-        "title": "Update Frontend Essentials Extension Pack (FPack) Config "
+        "command": "fpack.activate",
+        "title": "Activate Frontend Essentials Extension Pack (FPack) Config"
+      },
+      {
+        "command": "fpack.deactivate",
+        "title": "Deactivate Frontend Essentials Extension Pack (FPack) Config"
       }
     ]
   },
@@ -79,8 +83,7 @@
     "yandeu.five-server",
     "SimonSiefke.svg-preview",
     "ctcuff.font-preview",
-    "esbenp.prettier-vscode",
-    "tombonnike.vscode-status-bar-format-toggle"
+    "esbenp.prettier-vscode"
   ],
   "devDependencies": {
     "@types/vscode": "^1.55.0",
