@@ -56,6 +56,8 @@ Frontend Development Essentials Extension Pack for Visual Studio Code
 
 - 12- [Five Server (Live Server)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) - Dev Server with Live Reload(Serves Files/Folders). (Maintained Fork of Live Server)
 
+- 13- [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) - Make TypeScript errors prettier and more human-readable in VSCode
+
 ## Recommended Extension pack
 
 <a href="https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.zpack">
